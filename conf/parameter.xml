@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<parameter>
+	<lattice-size>36</lattice-size>
+	<hopping-energy>
+		<strength type="double">1.0</strength>
+	</hopping-energy>
+	<pair-potential>
+		<init-value type="double">1.0</init-value>
+	</pair-potential>
+	<interparticle-interaction>
+		<strength type="double">-5.0</strength>
+	</interparticle-interaction>
+	<external-potential>
+		<coefficient type="double">0.04</coefficient>
+	</external-potential>
+	<particle-number>
+		<up-spin>
+			<init-value type="int">1</init-value>
+		</up-spin>
+		<down-spin>
+			<init-value type="int">1</init-value>
+		</down-spin>
+	</particle-number>
+	<iteration-number type="int">30</iteration-number>
+	<boltzmannConst type="double">1.0</boltzmannConst>
+	<temperature type="double">1.0,0.1,0.01,0.001</temperature>
+	<weight-factor type="double">0.3</weight-factor>
+	<chemical-potential type="double">0.5</chemical-potential>
+	<magnetic-field type="double">1.0</magnetic-field>
+	<convergenceJudgeValue type="double">0.001</convergenceJudgeValue>
+	<useSparseMatrix type="boolean">false</useSparseMatrix>
+</parameter>

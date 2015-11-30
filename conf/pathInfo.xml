@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<path-Info>
+	<parameter>/conf/parameter.xml</parameter>
+	<sparse>output/sparse.mtx</sparse>
+	<output>output/Result_</output>
+	<log>log</log>
+</path-Info>
